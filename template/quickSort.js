@@ -36,6 +36,8 @@ const quickSort = (arr) => {
   return arr;
 };
 
-const arr = [1,4,3,2,54,0]
+const arr = [6,5,6,5,6,5,6,5,6,5]
 quickSort(arr)
 console.log(arr)
+
+
