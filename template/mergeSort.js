@@ -8,7 +8,6 @@ const mergSortHelp = (arr, start, end, temp) => {
 };
 
 const merge = (arr, start, end, temp) => {
-    console.log('>>>>>>>',temp, arr)
   let mid = (start + end) >> 1;
   let leftIndex = start;
   let rightIndex = mid + 1;
